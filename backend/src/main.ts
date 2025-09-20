@@ -11,7 +11,7 @@ async function bootstrap() {
   app.enableCors({
     origin: [
       'http://localhost:5173',
-      'https://68cebff74043375f5f759f25--jovial-eclair-f60180.netlify.app',
+      'https://stupendous-rolypoly-ffe40d.netlify.app/login',
     ],
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
