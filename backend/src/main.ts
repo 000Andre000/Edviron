@@ -11,7 +11,7 @@ async function bootstrap() {
   app.enableCors({
     origin: [
       'http://localhost:5173',
-      'https://stupendous-rolypoly-ffe40d.netlify.app/login',
+      'https://stupendous-rolypoly-ffe40d.netlify.app',
     ],
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
